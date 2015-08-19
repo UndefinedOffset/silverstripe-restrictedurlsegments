@@ -1,0 +1,9 @@
+---
+Name: "restrictedurlsegments"
+After:
+    - 'framework/*'
+    - 'cms/*'
+---
+SiteTree:
+    extensions:
+        - "RestrictedURLSegments"
